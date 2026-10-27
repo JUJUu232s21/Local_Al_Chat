@@ -1,4 +1,3 @@
-package semyon.android.studio.local_al_chat;
 import android.content.Context;
 import androidx.room.Database;
 import androidx.room.Room;
