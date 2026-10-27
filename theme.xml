@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Local_Al_Chat" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:textColorHighlight">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/gray</item>
+        <item name="windowSplashScreenAnimatedIcon">@android:color/transparent</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Local_Al_Chat</item>
+    </style>
+
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="Theme.Local_Al_Chat" parent="Base.Theme.Local_Al_Chat" />
+</resources>
